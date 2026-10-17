@@ -74,14 +74,14 @@
 <script>
 // CONFIGURE AQUI: substitua cada texto COLE_SEU_LINK_AFILIADO pelo link real correspondente.
 const AFFILIATE_LINKS = [
-  "COLE_SEU_LINK_AFILIADO_1", // 1. Organizador para casa
-  "COLE_SEU_LINK_AFILIADO_2", // 2. Necessaire de beleza
-  "COLE_SEU_LINK_AFILIADO_3", // 3. Suporte para celular
-  "COLE_SEU_LINK_AFILIADO_4", // 4. Bolsa
-  "COLE_SEU_LINK_AFILIADO_5", // 5. Fone
-  "COLE_SEU_LINK_AFILIADO_6", // 6. Produto infantil
-  "COLE_SEU_LINK_AFILIADO_7", // 7. Luminária
-  "COLE_SEU_LINK_AFILIADO_8"  // 8. Garrafa
+  "https://s.shopee.com.br/7VHEPWmArO", // Casa
+  "https://s.shopee.com.br/70Kxos3TWg", // Beleza
+  "", // Suporte para celular
+  "", // Bolsa
+  "", // Fone
+  "", // Produto infantil
+  "", // Luminária
+  ""  // Garrafa
 ];
 const cards=[...document.querySelectorAll('.product')], input=document.getElementById('searchInput'), empty=document.getElementById('emptyState');let activeCategory='todos';
 document.querySelectorAll('.product .buy').forEach((a,i)=>{
